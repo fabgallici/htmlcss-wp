@@ -80,20 +80,40 @@ body {
   /* height: 1100px; */
   background-color: grey;
 }
-
+/* Clearfix Float */
 .mid-container::after {
   content: "";
   display: table;
   clear: both;
 }
-
-.organic-themes {
+/* -- Page Feed -- */
+.page-feed {
   width: 20%;
   float: left;
 }
+.feed-icon-container {
+  float: left;
+  margin-right: 10px;
+  margin-top: 7px;
+}
+.page-feed ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+.page-feed ul li {
+  margin: 20px 0;
+}
+.page-feed ul li a {
+  text-decoration: none;
+  color: #3E9F3E;
+}
+.page-feed ul li a:hover {
+  text-decoration: underline;
+}
 
-.three-column {
-  width: 45%;
+/* -- Colonna Centrale --*/
+.central-column {
+  width: 50%;
   float: left;
   margin-left: 5%;
 }
@@ -110,8 +130,10 @@ body {
   margin-bottom: 25px;
 }
 
-.sfondo {
-  background-color: blue;
+.article-style {
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
 }
 
 
