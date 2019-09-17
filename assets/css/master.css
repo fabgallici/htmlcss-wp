@@ -72,6 +72,15 @@ body {
   font-size: 0.9em;
 }
 
+/* eventi hover navbar*/
+.top-nav-bar ul li:hover {
+  background-color: #655952;
+
+}
+.top-nav-bar a:hover {
+  text-decoration: underline;
+}
+
 /* ------------- CONTAINER CENTRALE ------------ */
 .mid-container {
   width: 100%;
