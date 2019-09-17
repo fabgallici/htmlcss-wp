@@ -61,8 +61,9 @@ body {
   background-color: #504741;
 }
 
+
 .top-nav-bar ul li {
-  width: 13%;
+  width: 138px;
   display: inline-block;
 }
 
@@ -139,7 +140,7 @@ body {
 .article-style {
   background-color: white;
   padding: 10px;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 
@@ -151,6 +152,7 @@ body {
   padding: 20px 2px;
   text-align: center;
   background-color: white;
+  border-radius: 5px;
 }
 
 .author {
