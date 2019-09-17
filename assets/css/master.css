@@ -13,6 +13,7 @@ body {
   width:1000px;
   /* height: 1500px;; */
   /* background-color: lightblue; */
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 /* ------------- SEZIONE HEADER ------------ */
@@ -29,8 +30,6 @@ body {
   background-repeat: no-repeat;
   height: 100%;
   position: relative;
-
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: white;
 }
 /* Titolo H1 */
@@ -58,12 +57,10 @@ body {
 
 .top-nav-bar {
   width: 100%;
-  line-height: 50px;
+  line-height: 40px;
   text-align: center;
-  /*temp*/
-  margin-bottom: 10px;
-  background-color: green;
-  border: 1px solid black;
+  margin-bottom: 15px;
+  background-color: #504741;
 }
 
 .top-nav-bar ul li {
@@ -71,7 +68,13 @@ body {
   display: inline-block;
 }
 
-/* container centrale */
+.top-nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+/* ------------- CONTAINER CENTRALE ------------ */
 .mid-container {
   width: 100%;
   /* height: 1100px; */
