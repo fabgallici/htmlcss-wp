@@ -61,9 +61,10 @@ body {
   background-color: #504741;
 }
 
-
 .top-nav-bar ul li {
-  width: 138px;
+  /* width: 138px; */
+  /* width: calc((100% - 30px) /7); */
+  width: 13.85%;
   display: inline-block;
 }
 
@@ -71,15 +72,14 @@ body {
   color: white;
   text-decoration: none;
   font-size: 0.9em;
+  display: block;
 }
 
 /* eventi hover navbar*/
-.top-nav-bar ul li:hover {
-  background-color: #655952;
 
-}
-.top-nav-bar a:hover {
+.top-nav-bar ul li a:hover {
   text-decoration: underline;
+  background-color: #655952;
 }
 
 /* ------------- CONTAINER CENTRALE ------------ */
